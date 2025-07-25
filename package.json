@@ -1,0 +1,26 @@
+{
+  "name": "@miga/button-app-specs",
+  "version": "0.0.1",
+  "description": "The Button App specifications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakeITGreatAgain-nl/button-app-specs.git"
+  },
+  "keywords": [
+    "The",
+    "Button",
+    "App",
+    "Specifications",
+    "API"
+  ],
+  "author": "Edward Koetsjarjan",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/MakeITGreatAgain-nl/button-app-specs/issues"
+  },
+  "homepage": "https://github.com/MakeITGreatAgain-nl/button-app-specs#readme"
+}
