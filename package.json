@@ -1,6 +1,6 @@
 {
   "name": "@miga/button-app-specs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The Button App specifications",
   "main": "index.js",
   "scripts": {
