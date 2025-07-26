@@ -1,0 +1,9 @@
+# don't need this
+node_modules
+
+# ignore lock for now
+yarn.lock
+
+# do not include dist
+dist
+package-lock.json

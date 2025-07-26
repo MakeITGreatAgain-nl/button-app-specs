@@ -1,11 +1,3 @@
-# button-app-specs
-The Button App specifications
-
-
-
-# Voorbeeld
-
-```
 import { NoopBleRadar, NoopButtonApp } from "./noop";
 import { stateMemory } from "./noop/memory";
 import { PrintDeviceType } from "./spec";
@@ -31,4 +23,3 @@ app.activate().then(ok => {
     }
     radar.simulateAblip()
 })
-```

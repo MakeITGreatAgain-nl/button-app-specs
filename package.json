@@ -1,9 +1,12 @@
 {
-  "name": "@miga/button-app-specs",
+  "name": "@makeitgreatagain/button-app-specs",
   "version": "0.0.2",
   "description": "The Button App specifications",
-  "main": "index.js",
+  "main": "src/App.ts",
   "scripts": {
+    "start": "node dist/App.js",
+    "dev": "nodemon --watch 'src/**/*.ts --exec 'ts-node' src/index.ts'",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +25,14 @@
   "bugs": {
     "url": "https://github.com/MakeITGreatAgain-nl/button-app-specs/issues"
   },
-  "homepage": "https://github.com/MakeITGreatAgain-nl/button-app-specs#readme"
+  "homepage": "https://github.com/MakeITGreatAgain-nl/button-app-specs#readme",
+  "dependencies": {
+    "typescript": "^5.8.3",
+    "yaml": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2"
+  }
 }
